@@ -9,14 +9,11 @@ class Solution {
             p=p*nums[ei];
            while(p>=k && si<=ei){
             p=p/nums[si];
-            
             si++;
-           }
+}
            count=count+(ei-si+1);
            ei++;
-           
-        }
-        return count;
-        
+           }
+return count;
     }
 }
